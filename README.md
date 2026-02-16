@@ -1,6 +1,6 @@
 # LLM from Scratch - Pedagogical Project
 
-This project is an educational implementation of building a Large Language Model (LLM) from scratch using Python and PyTorch. The goal is to understand the fundamentals of transformer-based models, including data preprocessing, model architecture, training, and evaluation.
+This project is an educational implementation of building a Large Language Model (LLM) from scratch using **Python and NumPy only**. The goal is to understand the fundamentals of transformer-based models, including data preprocessing, model architecture, training, and evaluation—without relying on PyTorch or TensorFlow.
 
 ## Project Structure
 
@@ -38,8 +38,8 @@ Or explore the notebooks in the `notebooks/` directory.
 ## Requirements
 
 - Python 3.8+
-- PyTorch 2.0+
-- CUDA-compatible GPU recommended for training
+- NumPy >= 1.21.0
+- Optional: psutil for CPU thermal monitoring
 
 ## Disclaimer
 
